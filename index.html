@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Tycoon Dex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dex">
+    <header>
+        <h1>War Tycoon Vehicle Dex</h1>
+        <div class="search-container">
+            <input type="text" id="vehicleSearch" placeholder="Search by name, type, or keyword...">
+        </div>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-btn active" onclick="openTab('dex')">Vehicle Dex</button>
+        <button class="tab-btn" onclick="openTab('chances')">Drop Chances</button>
+        <button class="tab-btn" onclick="openTab('crates')">Crates</button>
+    </nav>
+
+    <div id="dexView">
+        <div id="rarityStats" class="stats-bar"></div>
+        <main id="dexContainer"></main>
+    </div>
+
+    <div id="chancesContent" class="tab-content" style="display:none;">
+        <div class="content-wrapper">
+            <h2>Official Drop Rates</h2>
+            <table class="chances-table">
+                <tr><th>Rarity</th><th>Chance</th></tr>
+                <tr><td>Common</td><td>50%</td></tr>
+                <tr><td>Rare</td><td>30%</td></tr>
+                <tr><td>Epic</td><td>15%</td></tr>
+                <tr><td>Legendary</td><td>4%</td></tr>
+                <tr><td>Limited</td><td>1%</td></tr>
+                <tr><td>Secret</td><td>Spawn Waves/Random Admin Drop</td></tr>
+            </table>
+
+            <h2>Special Event Rates</h2>
+            <p>When an event is active, there is a small chance a base vehicle drops as a variant:</p>
+            <table class="chances-table">
+                <tr><th>Special</th><th>Chance</th></tr>
+                <tr><td>Summer</td><td>10%</td></tr>
+                <tr><td>Winter</td><td>10%</td></tr>
+                <tr><td>Oluja 1995</td><td>10%</td></tr>
+                <tr><td>Halloween</td><td>9%</td></tr>
+                <tr><td>Eclipse</td><td>5%</td></tr>
+                <tr><td>Shiny (Always Active)</td><td>0.1%</td></tr>
+            </table>
+        </div>
+    </div>
+
+   <div id="cratesContent" class="tab-content" style="display:none;">
+    <div class="content-wrapper">
+        <h2>Available Crates</h2>
+        <div class="crates-grid">
+            <div class="crate-card">
+                <h3>Basic Crate</h3>
+                <p class="price"><img src="medal.webp" class="medal-icon"> 1,000 Medals</p>
+                <p>Contains: Rare, Epic & Legendary</p>
+                <p class="small">20% Legendary Chance | 3 Slots</p>
+                <button class="view-btn" onclick="viewCrateContent(['Rare', 'Epic', 'Legendary'])">View Vehicles</button>
+            </div>
+            <div class="crate-card">
+                <h3>Custom Crate</h3>
+                <p class="price"><img src="medal.webp" class="medal-icon"> 1,500 Medals</p>
+                <p>Contains: Custom Vehicles</p>
+                <p class="small">100% Custom Chance | 1 Slot</p>
+                <button class="view-btn" onclick="viewCrateContent(['Custom'])">View Vehicles</button>
+            </div>
+            <div class="crate-card">
+                <h3>Epic Crate</h3>
+                <p class="price"><img src="medal.webp" class="medal-icon"> 3,000 Medals</p>
+                <p>Contains: Epic & Legendary</p>
+                <p class="small">40% Legendary Chance | 3 Slots</p>
+                <button class="view-btn" onclick="viewCrateContent(['Epic', 'Legendary'])">View Vehicles</button>
+            </div>
+            <div class="crate-card">
+                <h3>Legendary Crate</h3>
+                <p class="price"><img src="medal.webp" class="medal-icon"> 7,500 Medals</p>
+                <p>Contains: Legendary & Limited</p>
+                <p class="small">1x Legendary & Limited | 2 Slots</p>
+                <button class="view-btn" onclick="viewCrateContent(['Legendary', 'Limited'])">View Vehicles</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
