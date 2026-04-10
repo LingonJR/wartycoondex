@@ -20,6 +20,36 @@ const rarityOrder = {
     "Common": 7
 };
 
+let valuecontent = "";
+let cardscontent = "";
+
+const valueTextElement = document.getElementById('ValueText');
+const cardsTextElement = document.getElementById('CardsText');
+
+async function loadfiles() {
+    try {
+        const responsValue = await fetch('value.txt');
+        valuecontent = await responsValue.text();
+
+        const responsCards = await fetch('cards.txt');
+        cardscontent = await responsCards.text();
+
+        updatesite();
+    } catch (error) {
+        console.error("Couldn't Load The value & cards files:", error);
+    }
+}
+
+function updatesite() {
+    if (valueTextElement) valueTextElement.innerText = valuecontent;
+    if (cardsTextElement) cardsTextElement.innerText = cardscontent;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    loadfiles();
+});
+
+
 const dexContainer = document.getElementById('dexContainer');
 const searchInput = document.getElementById('vehicleSearch');
 const statsContainer = document.getElementById('rarityStats');
@@ -138,6 +168,7 @@ window.openTab = function(tabName) {
     const dexView = document.getElementById('dexView');
     const chances = document.getElementById('chancesContent');
     const crates = document.getElementById('cratesContent');
+    const collector = document.getElementById('collectorContent');
     const search = document.querySelector('.search-container');
     const buttons = document.querySelectorAll('.tab-btn');
 
@@ -152,6 +183,7 @@ window.openTab = function(tabName) {
     search.style.display = tabName === 'dex' ? 'block' : 'none';
     chances.style.display = tabName === 'chances' ? 'block' : 'none';
     crates.style.display = tabName === 'crates' ? 'block' : 'none';
+    collector.style.display = tabName === 'collector' ? 'block' : 'none';
 
     if (tabName === 'dex' && !dexContainer.innerHTML) {
         displayVehicles(vehicles);
