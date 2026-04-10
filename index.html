@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://lingonjr.github.io/wartycoondex/">
     <meta property="og:image" content="https://lingonjr.github.io/wartycoondex/banner.png">
     <meta name="theme-color" content="#FFD700">
-    <link rel="icon" type="image/x-icon" href="https://lingonjr.github.io/wartycoondex/wartycoonicon.png">
+    <link rel="icon" type="image/x-icon" href="wartycoonicon.png">
 </head>
 <body class="theme-dex">
     <header>
@@ -24,7 +24,7 @@
     <nav class="tabs">
         <button class="tab-btn active" onclick="openTab('dex')">Vehicle Dex</button>
         <button class="tab-btn" onclick="openTab('chances')">Drop Chances</button>
-        <button class="tab-btn" onclick="openTab('crates')">Crates</button>
+        <button class="tab-btn" onclick="openTab('collector')">Top Collectors</button>
     </nav>
 
     <div id="dexView">
@@ -58,6 +58,20 @@
             </table>
         </div>
     </div>
+    
+<div id="collectorContent">
+    <div class="collector-column">
+        <h2>Top Collectors By Value</h2>
+        <p id="ValueText"></p>
+    </div>
+    
+    <div class="collector-column">
+        <h2>Top Collectors By Cards</h2>
+        <p id="CardsText"></p>
+    </div>
+</div>
+
+
 
    <div id="cratesContent" class="tab-content" style="display:none;">
     <div class="content-wrapper">
