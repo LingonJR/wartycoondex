@@ -1,12 +1,65 @@
 body {
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 header { text-align: center; margin-bottom: 40px; }
+
+#TCText1 {
+    position: absolute;
+    color: #ffffff;
+    right: 25%;
+}
+
+#TCText2 {
+    position: absolute;
+    color: #ffffff;
+    left: 25%;
+}
+
+#collectorContent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;              
+    width: 100%;
+    margin: 40px 0;          
+    position: static;      
+}
+
+
+.collector-column {
+    flex: 0 1 auto;        
+    text-align: center;     
+}
+
+
+#ValueText, #CardsText {
+    color: #ffffff;
+    white-space: pre-line;
+    font-family: monospace;
+    font-size: 1.1rem;
+    text-align: left;       
+    display: inline-block; 
+    margin: 0 auto;
+}
+
+
+#ValueText::first-line, 
+#CardsText::first-line {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+#CollectorsText {
+    position: absolute;
+    color: #ffffff;
+    right: 45%;
+    top: 30%;
+}
 
 #vehicleSearch {
     padding: 12px;
