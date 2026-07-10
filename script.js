@@ -1,10 +1,10 @@
 import baseVehicles from './vehicles.js';
 import weaponizedVehicles from './weapons.js';
 
-const vehicles = {
-  ...baseVehicles,
-  ...weaponizedVehicles
-};
+const vehicles = [
+    ...baseVehicles,
+    ...weaponizedVehicles
+];
 
 
 const rarityValues = {
