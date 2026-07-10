@@ -1,8 +1,6 @@
 
-export const vehicles = [
-    
-    // April Fools
-      {
+const vehicles = [
+  {
     "name": "Toycopter",
     "type": "April Fools",
     "rarity": "Legendary",
@@ -14,22 +12,22 @@ export const vehicles = [
     "emoji_id": "1487800783301771424",
     "cardBackground": "https://i.ibb.co/7dNdrQhV/aprilfools.png"
   },
-        {
+  {
     "name": "F-35G Lightning II",
     "type": "April Fools",
     "rarity": "Limited",
     "keywords": [
       "F35",
       "F-35",
-        "F35G",
-        "F-35G",
-        "F35 Lightning"
+      "F35G",
+      "F-35G",
+      "F35 Lightning"
     ],
     "image": "https://i.ibb.co/RTM4nDpv/image.png",
     "emoji_id": "1490504789497348218",
     "cardBackground": "https://i.ibb.co/7dNdrQhV/aprilfools.png"
   },
-            {
+  {
     "name": "Bob Semple",
     "type": "April Fools",
     "rarity": "Legendary",
@@ -41,7 +39,7 @@ export const vehicles = [
     "emoji_id": "1490504799219875920",
     "cardBackground": "https://i.ibb.co/7dNdrQhV/aprilfools.png"
   },
-         {
+  {
     "name": "Tankocopter",
     "type": "April Fools",
     "rarity": "Legendary",
@@ -53,7 +51,18 @@ export const vehicles = [
     "emoji_id": "1487804319691444295",
     "cardBackground": "https://i.ibb.co/7dNdrQhV/aprilfools.png"
   },
-    //
+      {
+    "name": "Ripsaw M5",
+    "type": "Tank",
+    "rarity": "Epic",
+    "keywords": [
+      "Ripsaw",
+      "M5",
+      "Ripsawm5"
+    ],
+    "image": "https://i.ibb.co/FkZQ6GYW/Ripsaw-M5.png",
+    "emoji_id": "1513203131322990723"
+  },
   {
     "name": "Gurkha MPV",
     "type": "Ground",
@@ -256,6 +265,34 @@ export const vehicles = [
     "image": "https://i.ibb.co/DPpB4ML5/image.png",
     "emoji_id": "1414490659255222302"
   },
+   {
+    "name": "HEMTT A3",
+    "type": "Anti-air",
+    "rarity": "Common",
+    "keywords": [
+      "HEMTT A3 Centurion",
+      "HEMTT",
+      "A3",
+      "Centurion",
+      "HEMTT A3",
+      "HEMTT A3 Centurion"
+    ],
+    "image": "https://i.ibb.co/Pbj8vcF/HEMTT-m3.png",
+    "emoji_id": "1520165551907934258"
+  },
+     {
+    "name": "Aselsan Gurz",
+    "type": "Anti-air",
+    "rarity": "Epic",
+    "keywords": [
+      "Aselsan",
+      "Gurz",
+      "GÜRZ",
+      "Aselsan GÜRZ"
+    ],
+    "image": "https://i.ibb.co/Q3Nj5J6K/Aselsan-Gurz.png",
+    "emoji_id": "1513203109428596987"
+  },
   {
     "name": "Patriot AA",
     "type": "Anti-air",
@@ -377,7 +414,7 @@ export const vehicles = [
     "image": "https://i.ibb.co/WNYqgj5w/KA-50-2.png",
     "emoji_id": "1476865974002258021"
   },
-    {
+  {
     "name": "Rah-66 Comanche",
     "type": "Helicopter",
     "rarity": "Legendary",
@@ -389,6 +426,22 @@ export const vehicles = [
     ],
     "image": "https://i.ibb.co/YFWZyhCM/image.png",
     "emoji_id": "1490506616527655063"
+  },
+      {
+    "name": "RAH-66 Comanche hunter",
+    "type": "Helicopter",
+    "rarity": "Limited",
+    "keywords": [
+      "rah66",
+      "rah-66",
+        "Hunter",
+        "Rah-66 hunter",
+		"rah66 hunter",
+      "Comanche",
+      "Rah66 Comanche"
+    ],
+    "image": "https://i.ibb.co/JRZRBm9L/RAH-66-Comanche-Hunter.png",
+    "emoji_id": "1507456707821965503"
   },
   {
     "name": "Ah-6 Little Bird",
@@ -575,7 +628,8 @@ export const vehicles = [
       "Superhind"
     ],
     "image": "https://static.wikia.nocookie.net/kizmotek/images/3/32/Mi24_Superhind_Placeholder.png/revision/latest?cb=20250418030109",
-    "emoji_id": "1414490434901639271"
+    "emoji_id": "1414490434901639271",
+    "description": "The soviet tank"
   },
   {
     "name": "UH-72B Lakota",
@@ -602,7 +656,8 @@ export const vehicles = [
     "type": "Helicopter",
     "rarity": "Legendary",
     "image": "https://static.wikia.nocookie.net/kizmotek/images/b/b5/Delorean_Remodel.png/revision/latest/scale-to-width-down/1000?cb=20230223020724",
-    "emoji_id": "1414489175369191556"
+    "emoji_id": "1414489175369191556",
+    "description": "Back to the future"
   },
   {
     "name": "P-51 Mustang",
@@ -659,7 +714,8 @@ export const vehicles = [
       "Mig-29 Fulcrum"
     ],
     "image": "https://i.ibb.co/fdSqjQWt/image.png",
-    "emoji_id": "1414490465822048316"
+    "emoji_id": "1414490465822048316",
+    "description": "Skibidi dop"
   },
   {
     "name": "Ju-87 Stuka",
@@ -674,7 +730,8 @@ export const vehicles = [
       "ju87 stuka"
     ],
     "image": "https://i.ibb.co/Jj5YnSM8/image.png",
-    "emoji_id": "1414489985108676698"
+    "emoji_id": "1414489985108676698",
+    "description": "Scary dive bomber"
   },
   {
     "name": "B-29 Superfortress",
@@ -688,7 +745,8 @@ export const vehicles = [
       "b29"
     ],
     "image": "https://i.ibb.co/wZWdnhT3/image.png",
-    "emoji_id": "1414489028836982916"
+    "emoji_id": "1414489028836982916",
+    "description": "Nuke from above"
   },
   {
     "name": "A-10 Warthog",
@@ -704,7 +762,8 @@ export const vehicles = [
       "WTF IS A KILOMETER!"
     ],
     "image": "https://static.wikia.nocookie.net/kizmotek/images/3/32/A-10_Warthog.png/revision/latest?cb=20231012031724",
-    "emoji_id": "1414488938885808150"
+    "emoji_id": "1414488938885808150",
+    "description": "BRRRRRT"
   },
   {
     "name": "Harrier II",
@@ -723,7 +782,8 @@ export const vehicles = [
       "Flying Brick"
     ],
     "image": "https://i.ibb.co/5XWtSkwz/image.png",
-    "emoji_id": "1414489810940465244"
+    "emoji_id": "1414489810940465244",
+    "description": "The Flying Brick"
   },
   {
     "name": "V-22 Osprey",
@@ -784,7 +844,7 @@ export const vehicles = [
     "image": "https://i.ibb.co/C3DmmYpb/image.png",
     "emoji_id": "1476865983338516551"
   },
-      {
+  {
     "name": "B-1R Regional",
     "type": "Airplane",
     "rarity": "Limited",
@@ -847,7 +907,8 @@ export const vehicles = [
       "Tomcat"
     ],
     "image": "https://i.ibb.co/hxMBGPj4/image.png",
-    "emoji_id": "1414489277412147272"
+    "emoji_id": "1414489277412147272",
+    "description": "Top Gun Maverick"
   },
   {
     "name": "F-35A Lightning",
@@ -912,7 +973,8 @@ export const vehicles = [
       "f 16 falcon"
     ],
     "image": "https://static.wikia.nocookie.net/kizmotek/images/2/28/F16_Falcon_High_Quality.png/revision/latest/scale-to-width-down/1000?cb=20240623032512",
-    "emoji_id": "1414489411063906334"
+    "emoji_id": "1414489411063906334",
+    "description": "Good Unstable"
   },
   {
     "name": "F-18 Hornet",
@@ -928,7 +990,8 @@ export const vehicles = [
       "f18 hornet"
     ],
     "image": "https://static.wikia.nocookie.net/kizmotek/images/1/19/F-18_Hornet.png/revision/latest/scale-to-width-down/1000?cb=20240929033426",
-    "emoji_id": "1414489571277668383"
+    "emoji_id": "1414489571277668383",
+    "description": "Carrier Beast"
   },
   {
     "name": "Eurofighter Typhoon",
@@ -941,7 +1004,8 @@ export const vehicles = [
       "wild"
     ],
     "image": "https://static.wikia.nocookie.net/kizmotek/images/a/ae/Eurofigther_Typhoon.png/revision/latest?cb=20240813111700",
-    "emoji_id": "1414489248953798718"
+    "emoji_id": "1414489248953798718",
+    "description": "Wild"
   },
   {
     "name": "Su-57 Felon",
@@ -956,7 +1020,8 @@ export const vehicles = [
       "Kave"
     ],
     "image": "https://i.ibb.co/3mkTjJk6/image.png",
-    "emoji_id": "1414490868307722331"
+    "emoji_id": "1414490868307722331",
+    "description": "Kave is a good pilot and a good person"
   },
   {
     "name": "F-47 Prototype",
@@ -1006,7 +1071,8 @@ export const vehicles = [
       "thrillz"
     ],
     "image": "https://i.ibb.co/HTvM6YYR/JAS-39-Gripen.png",
-    "emoji_id": "1414489955287175250"
+    "emoji_id": "1414489955287175250",
+    "description": "Shoots flying meatballs at enemies"
   },
   {
     "name": "SR-72 Darkstar",
@@ -1021,7 +1087,8 @@ export const vehicles = [
       "sr 72 darkstar"
     ],
     "image": "https://static.wikia.nocookie.net/kizmotek/images/8/87/SR-72_Darkstar.png/revision/latest?cb=20250303055957",
-    "emoji_id": "1414490821369270334"
+    "emoji_id": "1414490821369270334",
+    "description": "The fastest plane in the game"
   },
   {
     "name": "F-15E Strike Eagle",
@@ -1040,7 +1107,8 @@ export const vehicles = [
       "biscuit"
     ],
     "image": "https://i.ibb.co/QjYbqJ63/F15-E-Strike-Eagle.png",
-    "emoji_id": "1414489295590527048"
+    "emoji_id": "1414489295590527048",
+    "description": "WTF IS A KILOMETER!"
   },
   {
     "name": "F-117N Seahawk",
@@ -1099,7 +1167,7 @@ export const vehicles = [
     "keywords": [
       "SURC"
     ],
-    "image": "https://static.wikia.nocookie.net/kizmotek/images/d/d6/SURC_New.png.png/revision/latest?cb=20250108053400",
+    "image": "https://i.ibb.co/3mcVKtcB/Surc.png",
     "emoji_id": "1414490911223582770"
   },
   {
@@ -1215,7 +1283,7 @@ export const vehicles = [
     "image": "https://i.ibb.co/KTvMYW1/image.png",
     "emoji_id": "1472554511561392211"
   },
-      {
+  {
     "name": "MQ-9 Reaper",
     "type": "Drone",
     "rarity": "Epic",
@@ -1646,19 +1714,58 @@ export const vehicles = [
     "catch_image": "https://i.ibb.co/cXSq34rL/F-15J.jpg",
     "cardBackground": "https://i.ibb.co/gLvZKM8d/F-15J.jpg"
   },
+      {
+    "name": "MP7",
+    "type": "Weapon",
+    "rarity": "Custom",
+    "keywords": [
+      "MP7",
+      "MP 7",
+      "MP-7"
+    ],
+    "image": "https://i.ibb.co/sJpCYy2s/MP7-Good.png",
+    "catch_image": "https://i.ibb.co/sJpCYy2s/MP7-Good.png",
+  },
+   {
+    "name": "Mil Mi-24 Hind (Custom)",
+    "type": "Helicopter",
+    "rarity": "Custom",
+    "keywords": [
+      "Mi-24 Hind",
+      "Mi24 Hind",
+      "Mi24Hind",
+      "Hind",
+      "Mil Mi-24 Hind",
+      "Mi24",
+      "Bf109.exe",
+      "Mi-24",
+      "Mi 24",
+      "Mi 24 Hind",
+      "Mi 24Hind",
+      "Mi 24 Hind Custom",
+      "Mi-24 Hind Custom",
+      "Mi-24HindCustom",
+      "Mi-24Hind Custom"
+    ],
+    "image": "https://i.ibb.co/1tZNw3gY/craiyon-215628-image.png",
+    "catch_image": "https://i.ibb.co/1tZNw3gY/craiyon-215628-image.png",
+    "cardBackground": "https://i.ibb.co/fzC6C4cc/mi24custom.jpg"
+  },
   {
     "name": "Teto's T-90M",
     "type": "Tank",
     "rarity": "Custom",
     "keywords": [
+      "molestia nigger",
       "molestia",
+      "nigger",
       "T-90",
       "T-90M",
       "T90"
     ],
     "image": "./tetorafale.jpg",
     "catch_image": "https://i.ibb.co/39yHvKJC/PSX-20250929-103511.jpg",
-    "cardBackground": "https://i.ibb.co/HDcWrLGR/PSX-20250929-103511.webp"
+    "cardBackground": "https://i.ibb.co/39yHvKJC/PSX-20250929-103511.jpg"
   },
   {
     "name": "Birthday F/A-18",
@@ -1691,6 +1798,21 @@ export const vehicles = [
     "emoji_id": "1414489156176052264"
   },
   {
+    "name": "Admiral Kuznetsov",
+    "type": "Boat",
+    "rarity": "Secret",
+    "keywords": [
+      "Admiral Flota Sovetskogo Soyuza Kuznetsov",
+      "Flota",
+      "Sovetskogo",
+      "Kuznetsov",
+      "Soyuza",
+      "Typsy"
+    ],
+    "image": "https://i.ibb.co/PzCJx3p6/Admiral-Kuznetsov.png",
+    "emoji_id": "1520117209329041570"
+  },
+    {
     "name": "Su-57M",
     "type": "Airplane",
     "rarity": "Secret",
@@ -1702,6 +1824,38 @@ export const vehicles = [
     ],
     "image": "https://i.ibb.co/Qvk4Q9LQ/Su-57-1024x576.png",
     "emoji_id": "1414490879619629217"
+  },
+      {
+    "name": "Sukhoi T-12",
+    "type": "Airplane",
+    "rarity": "Secret",
+    "keywords": [
+      "T-12",
+      "T12",
+      "T 12",
+      "Shturmovik-90",
+      "Sh-90",
+      "Typsy"
+    ],
+    "image": "https://i.ibb.co/mC1BX7Lq/T-12.png",
+    "emoji_id": "1520122897207791857"
+  },
+        {
+    "name": "Ha-300",
+    "type": "Airplane",
+    "rarity": "Secret",
+    "keywords": [
+      "Ha300",
+      "Ha 300",
+      "Helwan",
+      "Helwan Ha-300",
+      "Helwan Ha 300",
+      "Helwan Ha300",
+      "Helwanha300",
+      "Kai"
+    ],
+    "image": "https://i.ibb.co/8n2f2ygr/Ha-300.png",
+    "emoji_id": "1520123696419832011"
   },
   {
     "name": "Su-47 Berkut *Secret Edition*",
@@ -1767,7 +1921,8 @@ export const vehicles = [
       "Ultimate Freedom"
     ],
     "image": "https://static.wikia.nocookie.net/kizmotek/images/d/d4/AC-130_Gunship.png/revision/latest?cb=20221124003829",
-    "emoji_id": "1414488964404084836"
+    "emoji_id": "1414488964404084836",
+    "description": "Angel Of Death"
   },
   {
     "name": "Kaves Su-57",
@@ -2018,7 +2173,7 @@ export const vehicles = [
   {
     "name": "Winters gooners",
     "rarity": "Custom",
-    "type": "Custom",
+    "type": "custom",
     "keywords": [
       "gooner"
     ],
@@ -2077,7 +2232,7 @@ export const vehicles = [
     "image": "https://i.ibb.co/gMJ29qWr/russiansubmarinebelgorodk329oscariimb3dmodel001.png",
     "emoji_id": "1414490006462136351"
   },
-     {
+  {
     "name": "Sigma-Class Corvette",
     "rarity": "Epic",
     "type": "Boat",
@@ -2090,7 +2245,7 @@ export const vehicles = [
     "image": "https://i.ibb.co/gLQRQGP9/Sigma.png",
     "emoji_id": "1483926186613801170"
   },
-         {
+  {
     "name": "Ekranoplan",
     "rarity": "Limited",
     "type": "Boat",
@@ -2221,7 +2376,7 @@ export const vehicles = [
   {
     "name": "Winters Santa Maus",
     "rarity": "Custom",
-    "type": "Custom",
+    "type": "custom",
     "keywords": [
       "Winter",
       "Santas maus",
@@ -2417,7 +2572,7 @@ export const vehicles = [
   },
   {
     "name": "Blue Angels",
-    "rarity": "Custom",
+    "rarity": "custom",
     "type": "Custom",
     "keywords": [
       "Blue Angels",
@@ -2432,8 +2587,8 @@ export const vehicles = [
   },
   {
     "name": "moncef",
-    "rarity": "Custom",
-    "type": "Custom",
+    "rarity": "custom",
+    "type": "custom",
     "keywords": [
       "immigrant",
       "gay",
@@ -2444,8 +2599,8 @@ export const vehicles = [
   },
   {
     "name": "what moncef thinks he is",
-    "rarity": "Custom",
-    "type": "Custom",
+    "rarity": "custom",
+    "type": "custom",
     "keywords": [
       "e"
     ],
@@ -2453,8 +2608,8 @@ export const vehicles = [
   },
   {
     "name": "A330 New Year Livery",
-    "rarity": "Custom",
-    "type": "Custom",
+    "rarity": "custom",
+    "type": "custom",
     "keywords": [
       "A330",
       "Airbus 330",
@@ -2503,4 +2658,4 @@ export const vehicles = [
   }
 ];
 
-export default vehicles;
+module.exports = vehicles;
