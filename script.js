@@ -1,4 +1,11 @@
-import vehicles from './vehicles.js';
+import baseVehicles from './vehicles.js';
+import weaponizedVehicles from './weapons.js';
+
+const vehicles = {
+  ...baseVehicles,
+  ...weaponizedVehicles
+};
+
 
 const rarityValues = {
     Secret: 5000,
