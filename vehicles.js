@@ -1,5 +1,5 @@
 
-const vehicles = [
+export const vehicles = [
   {
     "name": "Toycopter",
     "type": "April Fools",
