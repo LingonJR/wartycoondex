@@ -65,7 +65,7 @@ const vehicles = [
   {
     "name": "Gurkha MPV",
     "type": "Ground",
-    "rarity": "Rare",
+    "rarity": "Common",
     "keywords": [
       "gurkha",
       "mpv",
@@ -73,6 +73,17 @@ const vehicles = [
     ],
     "image": "./images/vehicles/Gurkha MPV.png",
     "emoji_id": "1414489746054578196"
+  },
+    {
+    "name": "Eitan AFV",
+    "type": "Ground",
+    "rarity": "Limited",
+    "keywords": [
+      "Eitan",
+      "AFV"
+    ],
+    "image": "./images/vehicles/Eitan_AFV.png",
+    "emoji_id": "1546919316878925949"
   },
   {
     "name": "Type 625E",
@@ -203,7 +214,7 @@ const vehicles = [
       "apc",
       "lazar"
     ],
-    "image": "./images/vehicles/Lazar 3 APC.webp",
+    "image": "./images/vehicles/Lazar 3 APC.png",
     "emoji_id": "1414490134363111554"
   },
   {
@@ -339,13 +350,39 @@ const vehicles = [
   {
     "name": "Uparmored Humvee",
     "type": "Ground",
-    "rarity": "Common",
+    "rarity": "Legendary",
     "keywords": [
       "Uparmored Humvee",
       "Humvee"
     ],
     "image": "./images/vehicles/Uparmored Humvee.png",
     "emoji_id": "1414491069764079668"
+  },
+  {
+    "name": "Humvee Hawkeye",
+    "type": "Ground",
+    "rarity": "Common",
+    "keywords": [
+      "Humvee Hawkeye",
+      "Hawkeye",
+      "Humvee"
+    ],
+    "image": "./images/vehicles/Humvee_Hawkeye.png",
+    "emoji_id": "1552792311522398270"
+  },
+  {
+    "name": "Humvee TOW-II",
+    "type": "Ground",
+    "rarity": "Common",
+    "keywords": [
+      "Humvee TOW-II",
+      "TOW-II",
+      "TOW11",
+      "Humvee Tow",
+      "Humvee"
+    ],
+    "image": "./images/vehicles/Humvee_TOW-II.png",
+    "emoji_id": "1552792964118478918"
   },
   {
     "name": "LAV-AD",
@@ -399,6 +436,18 @@ const vehicles = [
     "image": "./images/vehicles/Super Stallion.png",
     "emoji_id": "1414490893540524052"
   },
+    {
+    "name": "Z-10",
+    "type": "Helicopter",
+    "rarity": "Epic",
+    "keywords": [
+      "Changhe Z-10",
+      "Z10",
+      "Z 10"
+    ],
+    "image": "./images/vehicles/Z-10.png",
+    "emoji_id": "1546914847046762517"
+  },
   {
     "name": "Ka-50 Black Shark",
     "type": "Helicopter",
@@ -412,6 +461,19 @@ const vehicles = [
     ],
     "image": "./images/vehicles/Ka-50 Black Shark.png",
     "emoji_id": "1476865974002258021"
+  },
+    {
+    "name": "Silent Hawk",
+    "type": "Helicopter",
+    "rarity": "Limited",
+    "keywords": [
+      "MH-X Silent Hawk",
+      "MHX",
+      "MH-X",
+      "Hawk"
+    ],
+    "image": "./images/vehicles/Silent_Hawk.png",
+    "emoji_id": "1546915755877077003"
   },
   {
     "name": "Rah-66 Comanche",
@@ -626,7 +688,7 @@ const vehicles = [
       "Mi 24",
       "Superhind"
     ],
-    "image": "./vehicles/Mi24_Superhind.png",
+    "image": "./images/vehicles/Mi24_Superhind.png",
     "emoji_id": "1414490434901639271",
     "description": "The soviet tank"
   },
@@ -1071,16 +1133,6 @@ const vehicles = [
     "type": "Airplane",
     "rarity": "Epic",
     "keywords": [
-      "balloon popper"
-    ],
-    "image": "./images/vehicles/F-22 Raptor.png",
-    "emoji_id": "1414489435474755684"
-  },
-  {
-    "name": "JAS 39 Gripen",
-    "type": "Airplane",
-    "rarity": "Epic",
-    "keywords": [
       "jas-39",
       "gripen",
       "Thrilly plen",
@@ -1135,6 +1187,18 @@ const vehicles = [
     "description": "WTF IS A KILOMETER!"
   },
   {
+    "name": "Tornado ASSTA",
+    "type": "Airplane",
+    "rarity": "Legendary",
+    "keywords": [
+      "Tornado",
+      "ASSTA",
+      "Panavia Tornado"
+    ],
+    "image": "./images/vehicles/Tornado_ASSTA.png",
+    "emoji_id": "1552791616287285462",
+  },
+  {
     "name": "F-117N Seahawk",
     "type": "Airplane",
     "rarity": "Limited",
@@ -1173,6 +1237,20 @@ const vehicles = [
     ],
     "image": "./images/vehicles/Jetski.png",
     "emoji_id": "1414489968847360050"
+  },
+    {
+    "name": "Project 1124",
+    "type": "Boat",
+    "rarity": "Rare",
+    "keywords": [
+      "1124",
+      "Project-1124",
+      "Grisha I-class corvette",
+      "Grisha Class",
+      "Grisha I-class"
+    ],
+    "image": "./images/vehicles/Project_1124.png",
+    "emoji_id": "1546912999837540414"
   },
   {
     "name": "RHIB",
@@ -1244,7 +1322,7 @@ const vehicles = [
     "keywords": [
       "Douglas"
     ],
-    "image": "./images/vehicles/USS Douglas.webp",
+    "image": "./images/vehicles/USS Douglas.png",
     "emoji_id": "1414491080295977012"
   },
   {
@@ -1257,7 +1335,7 @@ const vehicles = [
       "LCS2",
       "LCS 2"
     ],
-    "image": "./images/vehicles/USS Independence.webp",
+    "image": "./images/vehicles/USS Independence.png",
     "emoji_id": "1414491092379762759"
   },
   {
@@ -1333,6 +1411,20 @@ const vehicles = [
     "image": "./images/vehicles/Bayraktar TB2.png",
     "emoji_id": "1472554482419241093"
   },
+    {
+    "name": "S70 Okhotnik",
+    "type": "Drone",
+    "rarity": "Epic",
+    "keywords": [
+      "S70",
+      "Okhotnik",
+      "S-70 Okhotnik",
+      "S-70",
+      "S 70 Okhotnik"
+    ],
+    "image": "./images/vehicles/S-70_Okhotnik.png",
+    "emoji_id": "1546918308480024667"
+  },
   {
     "name": "Machine Gun Drone",
     "type": "Drone",
@@ -1404,6 +1496,99 @@ const vehicles = [
     "emoji_id": "1414490695343017984"
   },
   {
+    "name": "Wiesel 1 MK20",
+    "type": "Tank",
+    "rarity": "Common",
+    "keywords": [
+      "Wiesel 1 MK20",
+      "Wiesel MK20",
+      "Wiesel"
+    ],
+    "image": "./images/vehicles/Wiesel_1_MK20.png",
+    "emoji_id": "1546920077096386610"
+  },
+  {
+    "name": "Wiesel 1 Anti-Air",
+    "type": "Anti-Air",
+    "rarity": "Rare",
+    "keywords": [
+      "Wiesel 1 Anti-Air",
+      "Wiesel Anti-Air",
+      "Wiesel"
+    ],
+    "image": "./images/vehicles/Wiesel_1_Anti-Air.png",
+    "emoji_id": "1546920715733700689"
+  },
+  {
+    "name": "Wiesel 1 TOW-II",
+    "type": "Tank",
+    "rarity": "Epic",
+    "keywords": [
+      "Wiesel 1 TOW-II",
+      "Wiesel TOW-II",
+      "Wiesel"
+    ],
+    "image": "./images/vehicles/Wiesel_1_TOW-II.png",
+    "emoji_id": "1546921033989234759"
+  },
+  {
+    "name": "K9 Thunder SPG",
+    "type": "Tank",
+    "rarity": "Epic",
+    "keywords": [
+      "K9",
+      "K9 Thunder",
+      "Thunder SPG",
+      "Thunder"
+    ],
+    "image": "./images/vehicles/K9_THUNDER.png",
+    "emoji_id": "1546916397475569744"
+  },
+      {
+    "name": "Leopard 2ARC",
+    "type": "Tank",
+    "rarity": "Limited",
+    "keywords": [
+      "2ARC",
+      "Leopard"
+    ],
+    "image": "./images/vehicles/Leopard_2A-RC.png",
+    "emoji_id": "1546916896081838100"
+  },
+      {
+    "name": "Leopard 2ARC Thunderstorm",
+    "type": "Tank",
+    "rarity": "Secret",
+    "keywords": [
+      "2ARC",
+      "Leopard",
+      "Thunderstorm"
+    ],
+    "image": "./images/CustomCards/Leopard2arcstorm.png",
+    "description": "Suggested by @browarnik"
+  },
+    {
+    "name": "2P19 Scud Launcher",
+    "type": "Tank",
+    "rarity": "Epic",
+    "keywords": [
+      "Scud Launcher",
+      "2P19"
+    ],
+    "image": "./images/vehicles/scudlauncher.png",
+    "emoji_id": "1546917710095716554"
+  },
+    {
+    "name": "EMBT",
+    "type": "Tank",
+    "rarity": "Limited",
+    "keywords": [
+      "EMBT"
+    ],
+    "image": "./images/vehicles/EMBT.png",
+    "emoji_id": "1546915237452841041"
+  },
+  {
     "name": "Otomatic",
     "type": "Tank",
     "rarity": "Epic",
@@ -1414,20 +1599,6 @@ const vehicles = [
     ],
     "image": "./images/vehicles/Otomatic.png",
     "emoji_id": "1464802487092515057"
-  },
-  {
-    "name": "Wiesel",
-    "type": "Tank",
-    "rarity": "Rare",
-    "keywords": [
-      "Wiesel",
-      "Wiesel 1",
-      "Wiesel 2",
-      "Wiesel 1 MK20",
-      "MK20"
-    ],
-    "image": "./images/vehicles/Wiesel.png",
-    "emoji_id": "1414491144674345060"
   },
   {
     "name": "BMPT Terminator",
@@ -1781,18 +1952,6 @@ const vehicles = [
     "cardBackground": "images/CustomCards/bugattichiron.png"
   },
   {
-    "name": "Icy's Mistake",
-    "type": "Custom",
-    "rarity": "Custom",
-    "keywords": [
-      "Icy",
-      "Mistake",
-      "Icys Mistake"
-    ],
-    "image": "./images/vehicles/Icy's Mistake.png",
-    "cardBackground": "./images/customCardbackgrounds/Icy's Mistake.png"
-  },
-  {
     "name": "MP7",
     "type": "Weapon",
     "rarity": "Custom",
@@ -1859,24 +2018,6 @@ const vehicles = [
     "cardBackground": "./images/customCardbackgrounds/Teto's T-90M.jpg"
   },
   {
-    "name": "Birthday F/A-18",
-    "type": "Birthday",
-    "rarity": "Custom",
-    "keywords": [
-      "F/A-18",
-      "F-18",
-      "F18",
-      "Birthday",
-      "F/A-18 Hornet",
-      "F-18 Hornet",
-      "F18Hornet"
-    ],
-    "image": "./images/vehicles/Birthday F_A-18.png",
-    "customGlow": "#8b0101",
-    "customFontSize": 27,
-    "cardBackground": "./images/backgrounds/TheShowMustGoOnCard.png"
-  },
-  {
     "name": "Carbon Monoxide",
     "type": "Cat",
     "rarity": "Custom",
@@ -1885,7 +2026,8 @@ const vehicles = [
       "©",
       "Monoxide"
     ],
-    "image": "./images/vehicles/Carbon Monoxide.jpg",
+    "description": "The first ever custom within the dex",
+    "image": "./images/vehicles/Carbon Monoxide.png",
     "emoji_id": "1414489156176052264"
   },
   {
@@ -2040,20 +2182,6 @@ const vehicles = [
     "emoji_id": "1414489834445082675"
   },
   {
-    "name": "Winter's Christmas B-2",
-    "rarity": "Custom",
-    "type": "Airplane",
-    "keywords": [
-      "Christmassed B2",
-      "Wintered B2",
-      "winter",
-      "winter's b2",
-      "winters b2"
-    ],
-    "image": "./images/vehicles/Winter's Christmas B-2.png",
-    "emoji_id": "1414491154531221544"
-  },
-  {
     "name": "Yifeys Pink Atv",
     "rarity": "Custom",
     "type": "ground",
@@ -2200,6 +2328,18 @@ const vehicles = [
     "image": "./images/vehicles/PACV 76 Tempest.png",
     "emoji_id": "1414490557236904056"
   },
+     {
+    "name": "AVH Reaper",
+    "rarity": "Legendary",
+    "type": "Hovercraft",
+    "keywords": [
+      "AVH",
+      "Reaper",
+      "AVH-Reaper"
+    ],
+    "image": "./images/vehicles/AVH_Reaper.png",
+    "emoji_id": "1545944405356187698"
+  },
   {
     "name": "Zubr Class",
     "rarity": "Epic",
@@ -2249,7 +2389,7 @@ const vehicles = [
   },
   {
     "name": "This Guy Card",
-    "rarity": "Custom",
+    "rarity": "Avatar",
     "type": "Avatar Lol",
     "keywords": [
       "This guy",
@@ -2438,7 +2578,7 @@ const vehicles = [
       "Losangeles",
       "Usslosangeles"
     ],
-    "image": "./images/vehicles/Los Angeles Class Submarine.webp",
+    "image": "./images/vehicles/Los Angeles Class Submarine.png",
     "emoji_id": "1418920197909250070",
     "customFontSize": 30
   },
@@ -2470,16 +2610,6 @@ const vehicles = [
     "cardBackground": "./images/backgrounds/Christmasmaus1.png"
   },
   {
-    "name": "SharkBoi",
-    "rarity": "Custom",
-    "type": "Custom",
-    "keywords": [
-      "Shark",
-      "Sharkboi"
-    ],
-    "image": "./images/vehicles/SharkBoi.png"
-  },
-  {
     "name": "DC-10",
     "rarity": "Custom",
     "type": "Airplane",
@@ -2489,16 +2619,6 @@ const vehicles = [
       "DC 10"
     ],
     "image": "./images/vehicles/DC-10.png"
-  },
-  {
-    "name": "Bubbler Slide",
-    "rarity": "Custom",
-    "type": "Gay",
-    "keywords": [
-      "Bubbler",
-      "slide"
-    ],
-    "image": "./images/vehicles/Bubbler Slide.jpg"
   },
   {
     "name": "Tornado 154 Gruppo 6 Stormo Diavoli Rossi",
@@ -2667,27 +2787,6 @@ const vehicles = [
     "image": "./images/vehicles/Blue Angels.jpg"
   },
   {
-    "name": "moncef",
-    "rarity": "custom",
-    "type": "custom",
-    "keywords": [
-      "immigrant",
-      "gay",
-      "black",
-      "jew"
-    ],
-    "image": "./images/vehicles/moncef.jpg"
-  },
-  {
-    "name": "what moncef thinks he is",
-    "rarity": "custom",
-    "type": "custom",
-    "keywords": [
-      "e"
-    ],
-    "image": "./images/vehicles/what moncef thinks he is.jpg"
-  },
-  {
     "name": "A330 New Year Livery",
     "rarity": "custom",
     "type": "custom",
@@ -2737,5 +2836,4 @@ const vehicles = [
     "image": "./images/vehicles/HIT Haider.png"
   }
 ]
-
 export default vehicles;
