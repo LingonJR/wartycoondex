@@ -15,9 +15,10 @@
 </head>
 <body class="theme-dex">
     <header>
-        <h1>War Tycoon Dex Wiki</h1>
+        <h1 class="visually-hidden">War Tycoon Dex Wiki</h1>
+        <img class="site-banner" src="banner.png" alt="War Tycoon Dex">
         <div class="search-container">
-            <input type="text" id="vehicleSearch" placeholder="Search by name, type, or keyword...">
+            <input type="search" id="vehicleSearch" placeholder="Search vehicles, weapons, and keywords..." aria-label="Search vehicles, weapons, and keywords">
         </div>
     </header>
 
@@ -60,7 +61,7 @@
         </div>
     </div>
     
-<div id="collectorContent">
+<div id="collectorContent" style="display:none;">
     <div class="collector-column">
         <h2>Top Collectors By Value</h2>
         <p id="ValueText"></p>

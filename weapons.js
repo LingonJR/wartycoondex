@@ -1,5 +1,4 @@
 const dexvehicles = [
-
   {
     "name": "AK-47M",
     "type": "Assault Rifle",
@@ -151,7 +150,7 @@ const dexvehicles = [
   {
     "name": "AS-VAL",
     "type": "Assault Rifle",
-    "rarity": "Limted",
+    "rarity": "Limited",
     "keywords": [
       "AS-VAL",
       "ASVAL",
@@ -355,7 +354,7 @@ const dexvehicles = [
   {
     "name": "Grenade Launcher",
     "type": "Misc Weapon",
-    "rarity": "Limited",
+    "rarity": "Legendary",
     "keywords": [
       "Grenade Launcher",
       "GrenadeLauncher",
@@ -485,7 +484,9 @@ const dexvehicles = [
     "rarity": "Legendary",
     "keywords": [
       "M1 Garand",
-      "M1Garand"
+      "M1Garand",
+      "M1",
+      "Garand"
     ],
     "image": "./images/weapons/M1 Garand.png",
     "emoji_id": "1523650231571320964"
@@ -686,22 +687,6 @@ const dexvehicles = [
     "emoji_id": "1523650254157906040"
   },
   {
-    "name": "MP7",
-    "type": "Sub Machine Gun",
-    "rarity": "Rare",
-    "keywords": [
-      "MP7",
-      "MP 7 Submachine Gun",
-      "MP7 Submachine Gun",
-      "MP7SubmachineGun",
-      "MP7",
-      "Mp 7",
-      "MP-7"
-    ],
-    "image": "./images/weapons/MP7.png",
-    "emoji_id": "1523650255508471858"
-  },
-  {
     "name": "MP9",
     "type": "Sub Machine Gun",
     "rarity": "Common",
@@ -843,7 +828,7 @@ const dexvehicles = [
       "RocketPropelledGrenade"
     ],
     "image": "./images/weapons/RPG.png",
-    "emoji_id": "1523650298613203095"
+    "emoji_id": "1523650270901571736"
   },
   {
     "name": "SA80 LSW",
@@ -899,6 +884,7 @@ const dexvehicles = [
     "keywords": [
       "SCAR-L",
       "SCARL",
+      "Scar",
       "SCAR L",
       "SCAR-L Assault Rifle",
       "SCARLAssaultRifle"
@@ -1040,6 +1026,19 @@ const dexvehicles = [
     ],
     "image": "./images/weapons/VHS-2.png",
     "emoji_id": "1523650294473424966"
+  },
+    {
+    "name": "FN-F2000S",
+    "type": "Assault Rifle",
+    "rarity": "Limited",
+    "keywords": [
+      "FN 2000S",
+      "FN-F2000S",
+      "F2000",
+      "F2000S"
+    ],
+    "image": "./images/weapons/F2000S.png",
+    "emoji_id": "1546918958551015454"
   },
   {
     "name": "VSS Vintorez",

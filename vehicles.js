@@ -27,6 +27,44 @@ const vehicles = [
     "cardBackground": "./images/customCardbackgrounds/F-35G Lightning II.png"
   },
   {
+    "name": "F-35A Aggressor",
+    "type": "Airplane",
+    "rarity": "Limited",
+    "keywords": [
+      "F35",
+      "F-35",
+      "F35A",
+      "Aggressor",
+      "F-35A",
+      "F35 Lightning",
+      "F-35 Aggressor",
+      "F35A Aggressor",
+      "F-35A Aggressor",
+      "F35 Aggressor"
+    ],
+    "image": "./images/vehicles/F-35A_Agressor.png",
+    "emoji_id": "1565722889099944026",
+  },
+  {
+    "name": "F-35B Aggressor",
+    "type": "Airplane",
+    "rarity": "Limited",
+    "keywords": [
+      "F35",
+      "F-35",
+      "F35B",
+      "Aggressor",
+      "F-35B",
+      "F35 Lightning",
+      "F-35 Aggressor",
+      "F35B Aggressor",
+      "F-35B Aggressor",
+      "F35 Aggressor"
+    ],
+    "image": "./images/vehicles/F-35B_Agressor.png",
+    "emoji_id": "1565723009430458468",
+  },
+  {
     "name": "Bob Semple",
     "type": "April Fools",
     "rarity": "Legendary",
@@ -550,6 +588,21 @@ const vehicles = [
     "emoji_id": "1414489002291232768"
   },
   {
+    "name": "AH-64 Apache: Desert Camo",
+    "type": "Helicopter",
+    "rarity": "Limited",
+    "keywords": [
+      "Apache",
+      "Desert",
+      "AH-64D Apache",
+      "AH-64D",
+      "Ah-64",
+      "Ah64"
+    ],
+    "image": "./images/vehicles/AH-64 Apache: Desert Camo.png",
+    "emoji_id": "1566081590923104386"
+  },
+  {
     "name": "AH-1Z Viper",
     "type": "Helicopter",
     "rarity": "Epic",
@@ -827,6 +880,27 @@ const vehicles = [
     "description": "BRRRRRT"
   },
   {
+    "name": "A-10: Black Snake",
+    "type": "Airplane",
+    "rarity": "Limited",
+    "keywords": [
+      "a-10",
+      "Black Snake",
+      "a10",
+      "A10 Black snake",
+      "A 10 black snake",
+      "Blacksnake",
+      "a 10",
+      "a 10 warthog",
+      "warthog",
+      "freedom",
+      "WTF IS A KILOMETER!"
+    ],
+    "image": "./images/vehicles/A-10: Black Snake.png",
+    "emoji_id": "1566081274676912149",
+    "description": "HISSSSSSS"
+  },
+  {
     "name": "Harrier II",
     "type": "Airplane",
     "rarity": "Epic",
@@ -859,6 +933,20 @@ const vehicles = [
     ],
     "image": "./images/vehicles/V-22 Osprey.png",
     "emoji_id": "1414491113041170513"
+  },
+    {
+    "name": "Mv-75 Cheyenne II",
+    "type": "Airplane",
+    "rarity": "Epic",
+    "keywords": [
+      "mv-75",
+      "MV 75",
+      "mv75",
+      "cheyenne",
+      "mv75 cheyenne"
+    ],
+    "image": "./images/vehicles/Mv-75 Cheyenne II.png",
+    "emoji_id": "1556323106094714950"
   },
   {
     "name": "Su-25 Frogfoot",
@@ -1150,6 +1238,27 @@ const vehicles = [
     "emoji_id": "1414489955287175250",
     "description": "Shoots flying meatballs at enemies"
   },
+    {
+    "name": "Birthday Gripen",
+    "type": "Airplane",
+    "rarity": "Birthday",
+    "keywords": [
+      "jas-39",
+      "gripen",
+      "Thrilly plen",
+      "meatball plane",
+      "flying ikea",
+      "king of the north skies",
+      "jas 39 gripen",
+      "jas39",
+      "jas 39",
+      "jas 39 gripen",
+      "jas39 gripen",
+      "thrillz",
+      "Birthday Gripen"
+    ],
+    "cardBackground": "./images/customCardbackgrounds/birthday.jpg"
+  },
   {
     "name": "SR-72 Darkstar",
     "type": "Airplane",
@@ -1165,6 +1274,17 @@ const vehicles = [
     "image": "./images/vehicles/SR-72 Darkstar.png",
     "emoji_id": "1414490821369270334",
     "description": "The fastest plane in the game"
+  },
+    {
+    "name": "Octoberfest Beer",
+    "type": "Beer",
+    "rarity": "Custom",
+    "keywords": [
+      "Beer",
+      "Octoberfest"
+    ],
+    "catch_image": "./images/CustomCards/octoberfest_beer.png",
+    "cardBackground": "./images/customCardbackgrounds/octoberfest.jpg"
   },
   {
     "name": "F-15E Strike Eagle",
@@ -1226,6 +1346,19 @@ const vehicles = [
     ],
     "image": "./images/vehicles/J-36.png",
     "emoji_id": "1414489908264964127"
+  },
+    {
+    "name": "J-50",
+    "type": "Airplane",
+    "rarity": "Epic",
+    "keywords": [
+      "j-50",
+      "Chengdu J-50",
+      "j50",
+      "j 50"
+    ],
+    "image": "./images/vehicles/J-50.png",
+    "emoji_id": "1565715338392244264"
   },
   {
     "name": "Jetski",
@@ -1496,13 +1629,29 @@ const vehicles = [
     "emoji_id": "1414490695343017984"
   },
   {
+    "name": "KF-41 Lynx",
+    "type": "Tank",
+    "rarity": "Epic",
+    "keywords": [
+      "kf41",
+      "kf 41",
+      "KF-41",
+      "Lynx",
+      "KF41 lynx",
+      "KF 41 Lynx"
+    ],
+    "image": "./images/vehicles/KF-41_Lynx.png",
+    "emoji_id": "1565715757134774453"
+  },
+  {
     "name": "Wiesel 1 MK20",
     "type": "Tank",
     "rarity": "Common",
     "keywords": [
       "Wiesel 1 MK20",
       "Wiesel MK20",
-      "Wiesel"
+      "Wiesel",
+      "Ozelot"
     ],
     "image": "./images/vehicles/Wiesel_1_MK20.png",
     "emoji_id": "1546920077096386610"
@@ -1514,7 +1663,8 @@ const vehicles = [
     "keywords": [
       "Wiesel 1 Anti-Air",
       "Wiesel Anti-Air",
-      "Wiesel"
+      "Wiesel",
+      "Ozelot"
     ],
     "image": "./images/vehicles/Wiesel_1_Anti-Air.png",
     "emoji_id": "1546920715733700689"
@@ -1526,7 +1676,8 @@ const vehicles = [
     "keywords": [
       "Wiesel 1 TOW-II",
       "Wiesel TOW-II",
-      "Wiesel"
+      "Wiesel",
+      "Ozelot"
     ],
     "image": "./images/vehicles/Wiesel_1_TOW-II.png",
     "emoji_id": "1546921033989234759"
@@ -1573,7 +1724,8 @@ const vehicles = [
     "rarity": "Epic",
     "keywords": [
       "Scud Launcher",
-      "2P19"
+      "2P19",
+      "Scud"
     ],
     "image": "./images/vehicles/scudlauncher.png",
     "emoji_id": "1546917710095716554"
@@ -2311,6 +2463,7 @@ const vehicles = [
     "keywords": [
       "Flugabwehrkanonenpanzer Gepard",
       "Gepard",
+      "Flakpanzer",
       "Flugabwehrkanonenpanzer"
     ],
     "image": "./images/vehicles/Flugabwehrkanonenpanzer Gepard.png",
@@ -2466,6 +2619,20 @@ const vehicles = [
     ],
     "image": "./images/vehicles/Sigma-Class Corvette.png",
     "emoji_id": "1483926186613801170"
+  },
+  {
+    "name": "Visby Class Corvette",
+    "rarity": "Epic",
+    "type": "Boat",
+    "keywords": [
+      "Visby",
+      "Visby Class",
+      "Corvette",
+      "Visby Class Corvette"
+    ],
+    "image": "./images/vehicles/Visby-Class_Corvette.png",
+    "emoji_id": "1558521652319494254",
+    "description": "Sweden mentioned RAHHHH"
   },
   {
     "name": "Ekranoplan",
@@ -2834,6 +3001,62 @@ const vehicles = [
       "hit haider"
     ],
     "image": "./images/vehicles/HIT Haider.png"
+  },
+      {
+    "name": "Icys Mistake",
+    "rarity": "1of1",
+    "type": "1of1",
+    "keywords": [
+      "Icy",
+      "mistake",
+      "icys"
+    ],
+    "image": "./images/CustomCards/icysmistake.png",
+    "cardBackground": "./images/CustomCards/icysmistake.png"
+  },
+  {
+    "name": "Mistel 2",
+    "rarity": "Secret",
+    "type": "Airplane",
+    "keywords": [
+      "FW190",
+      "FW-190",
+      "FW 190",
+      "FW-190 Mistel 2",
+      "FW190 Mistel 2",
+      "Mistel 2",
+      "Mistel2",
+      "Mistel"
+    ],
+    "image": "./images/vehicles/mistel2.png"
+  },
+  {
+    "name": "Jas 39 Gripen D",
+    "rarity": "Secret",
+    "type": "Airplane",
+    "keywords": [
+      "Gripen",
+      "GripenD",
+      "Jas 39 Gripen",
+      "Jas39",
+      "Saab 39 Gripen",
+      "Saab 39",
+      "Jas 39"
+    ],
+    "image": "./images/vehicles/jas39gripend.png"
+  },
+  {
+    "name": "Leopard 2PL",
+    "rarity": "Secret",
+    "type": "Tank",
+    "keywords": [
+      "2PL",
+      "Leopard2pl",
+      "Leopard2",
+      "Leopard 2"
+    ],
+    "image": "./images/vehicles/leopard2pl.png"
   }
 ]
+
 export default vehicles;
